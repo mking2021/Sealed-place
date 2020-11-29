@@ -14,8 +14,8 @@ h2{
   right:0px;
   margin: auto;
   float: none;
-  width: 500px;
-  height: 500px;
+  width: 140px;
+  height: 30px;
   background-color: blue;
   border:1px solid black;
   text-align:center;
@@ -33,7 +33,7 @@ h1 {
   clear: margin;
   position: relative;
   color: black;
-  background-color: lightblue;
+  background-color: blue;
   padding: 10px;
   padding-top: 45px;
   font-size: 100%;
