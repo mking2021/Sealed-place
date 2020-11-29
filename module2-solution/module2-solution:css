@@ -1,7 +1,12 @@
-{
+*{
   box-sizing: border-box;
+   font-family: Times New Roman;
+  font-size: 100%;
   margin: 0;
   padding: 0;
+}
+body {
+    background-color: #d6d6d6;
 }
 {
   font-family: Times New Roman;
@@ -24,37 +29,50 @@ h2{
 
 h1 {
   text-align: center;
+   color: black;
   margin-top: 25%;
   margin-bottom: 25%; 
 }
 
-  
-.section {  
-  clear: margin;
-  position: relative;
-  color: black;
-  background-color: blue;
-  padding: 10px;
-  padding-top: 45px;
-  font-size: 100%;
-  border:3px solid black;
-  margin-left: 15px;
-  margin-bottom: 15px;
-  margin-right: 15px;
+  section {
+    border: 1px solid black;
+    background-color: #b5c4d2;
+    margin: 10px;
+}
+section>h2 {  
+  float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    font-style: Times New Roman;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px;
   }  
   
-  .Chicken{
-    background-color:#FF0000;         
+  section.Chicken>h2{
+    background-color:#76b8db;         
     color: red;
     }
-   .Beef{
-    background-color:#0000FF;
+   section.Beef>h2{
+    background-color:#4f7acd;
     color: blue;  
    }
-   .Sushi{
-    background-color:#FFFF00;
+   section.Sushi>h2{
+    background-color:#10328a;
     color: yellow;   
    }
+   section>p {
+    padding: 40px 15px 15px 15px;
+}
+
+.row {
+    width: 100%;
+}
+
 
 @media (min-width: 992px) {  
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
