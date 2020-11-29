@@ -13,7 +13,7 @@ h1 {
 h2 {
     border: 3px solid black;
     font-size: 1.25em;
-    text-align: center;
+    text-align: left align;
     float:right;
     padding-left: 30px;
     padding-right: 30px;
